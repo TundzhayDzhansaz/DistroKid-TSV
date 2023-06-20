@@ -21,7 +21,7 @@ let lines = fileContents.components(separatedBy: .newlines)
 // Define the filter conditions
 let startDateFilter = "2023-04-01" // Start date of the range (inclusive)
 let endDateFilter = "2023-04-30" // End date of the range (inclusive)
-let storeNames = ["YouTube (Ads)", "YouTube (Red)", "YouTube (ContentID)", "YouTube (Red) - Composition", "YouTube (Ads) - Composition", "YouTube (Audio)"]
+let storeNames = ["YouTube", "Spotify"]
 
 // Calculate the previous two months based on the entered start and end dates
 let dateFormatter = DateFormatter()
